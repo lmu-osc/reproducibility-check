@@ -53,7 +53,7 @@ b\) If there are data sets in the project folder that were created by other pre-
 | :----------------------------------------------- | :------------------------------------------------- | :-------------------------- | :------------------------------------------------------------ |
 | e.g. 0a preprocessing                           | e.g. processed_data.csv                            |                            | e.g. Yes                                                     |
 | ...                                             | ...                                                |                            | ...                                                          |
-| **Graphic/table/number in text**                | **Script*which produced the respective output*** | **Line in the manuscript** | **Successfully reproduced?*If not, list all differences here!*** |
+| **Graphic/table/number in text**                | **Script *which produced the respective output*** | **Line in the manuscript** | **Successfully reproduced? *If not, list all differences here!*** |
 | e.g. Figure 1                                   | e.g. 2-Analyses                                    | After line 300             | e.g. different size of the last bar (chart)                  |
 | e.g. Descriptive statistics of the participants | e.g. 1-Demographics                                | e.g. line 320              | e.g. Yes                                                     |
 | ...                                             | ...                                                | ...                        | ...                                                          |
