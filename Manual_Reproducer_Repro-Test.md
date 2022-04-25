@@ -20,7 +20,7 @@
 
 **0.** **Download all files of the project!**
 
-➔ Are they located in one place? Are they easy to find?  
+- Are they located in one place? Are they easy to find?  
 
 <br>
 
