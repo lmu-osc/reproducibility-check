@@ -25,7 +25,6 @@
 0. **Upload all files of your project into one place (e.g. an osf-project)** or at least make sure that all information how all files are accessible can be found at one place.
 
    0.1. Make sure that files containing your (raw) data have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes).  
-
    0.2. Make sure to include codebooks for at least all raw data files.  
    0.3. Optimally, your project contains a R project file and such a structure of the folders and data files that the reproducer can simply download and save the complete project folder and then execute the scripts without further changes.  
    0.4. Create a "Master" script file (e.g. named 0_Make.R) that can be executed by the reproducer to automatically run all other scripts without having to run them individually.  
