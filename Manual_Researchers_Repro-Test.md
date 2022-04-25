@@ -35,7 +35,7 @@
 
 1. **Make sure that the correct versions of the software packages (e.g. versions of R packages) can be used by the reproducer**. Therefore, you might choose between the following options ranked by their quality (best option first):
 
-    a) Include a renv file and an R Project file in the project, so that the author can automatically use the versions specified within the renv file. More information about this option can be found at https://www.rstudio.com/blog/renv-project-environments-for-r/.
+    a) Include a renv file and an R Project file in the project, so that the author can automatically use the versions specified within the renv file. More information about this option can be found at https://www.rstudio.com/blog/renv-project-environments-for-r/.  
     b) Include an additional file where all package versions are specified. Therefore, you can include the output of the code “sessionInfo()” from the R session where you have produced your results.  
 
   <br>
