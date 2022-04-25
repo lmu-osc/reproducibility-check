@@ -8,11 +8,11 @@
 
 **The Reproducibility Test generally contains these two aspects:**
 
-  **<u>A. Reproduction of the analyses</u>: Can all your figures and results be reproduced with the available data and scripts?**
+  -**<u>A. Reproduction of the analyses</u>: Can all your figures and results be reproduced with the available data and scripts?**
 
   **➔ If this criterion cannot be fulfilled, it does not make sense to continue with B). Therefore, two termination criteria (1. scripts cannot be run through; 2. Figures/results cannot be reproduced) have been built into the manual for the reproducer. Each of them leads to a direct report of the problems/discrepancies to you as the author.**
 
-  **<u>B. Reusability:</u> Are all files (e.g. raw data, scripts) structured in such a way that they can be easily reused by external persons for their own research?**
+  -**<u>B. Reusability:</u> Are all files (e.g. raw data, scripts) structured in such a way that they can be easily reused by external persons for their own research?**
 
   **➔ You should simply think about everything that could make the reuse of your material/data/scripts difficult. Three central aspects to improve the reusability are a helpful code description (e.g. easily understandable comments within you R-scripts), reasonable and consistent variable names within both data files and codebooks and some kind of meta-data that provide a quick overview what your data and project are about.**
 
