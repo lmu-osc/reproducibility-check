@@ -40,7 +40,7 @@
 
   <br>
 
-2. **Add a ReadMe-file (in a TXT, MD or PDF-format) to the project** that explains all steps necessary to reproduce your analyses, especially the following points:
+2. **Add a ReadMe-file (in a TXT, MD or PDF-format) to the project** that explains all steps necessary to reproduce your analyses, especially the following points:  
   2.1. Programme version (e.g. R-version) that you used or that is necessary to reproduce your analyses.  
   2.2. Information about requirements regarding the computational environment (e.g. working memory of the computer, Mac/Windows version of the computer, approximate running time of your code)  
   2.3. Information about how to make sure that the correct versions of the software packages (e.g. versions of R packages) can be used by the reproducer. Therefore, you might choose between the options stated in point 1.  
