@@ -28,7 +28,7 @@
    0.2. Make sure to include codebooks for at least all raw data files.  
    0.3. Optimally, your project contains a R project file and such a structure of the folders and data files that the reproducer can simply download and save the complete project folder and then execute the scripts without further changes.  
    0.4. Create a "Master" script file (e.g. named 0_Make.R) that can be executed by the reproducer to automatically run all other scripts without having to run them individually.  
-   0.5. Make sure that the project includes a ReadMe-file (see 1. for what should be included in this file).  
+   0.5. Make sure that the project includes a ReadMe-file (see 2. for what should be included in this file).  
 
    <br>
 
