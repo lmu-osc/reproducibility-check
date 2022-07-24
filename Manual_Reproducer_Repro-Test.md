@@ -90,5 +90,5 @@ b\) If there are data sets in the project folder that were created by other pre-
 -   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
 -   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
 -   <u>Additional aspects</u> that can be pointed out to the authors, even if they are not mandatory:
--   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
+    -   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
     -   Are the data stored in a data archive? This makes the data easier to be found and thus easier to reuse.
