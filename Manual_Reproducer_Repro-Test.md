@@ -72,7 +72,7 @@ b\) If there are data sets in the project folder that were created by other pre-
 -   Are the lines of code sufficiently commented so that one can basically understand which steps are carried out?  
 <br>
 
-**1.4. Search for ReadMe file!**
+**2. Search for ReadMe file!**
 
 -   Does it describe all the necessary steps to fully reproduce the analyses?
 
@@ -81,7 +81,7 @@ b\) If there are data sets in the project folder that were created by other pre-
 -   Does it sufficiently point out requirements/prerequisites regarding the software to be used (e.g. versions of the R packages; running time of the scripts; working memory of the computer)?  
 <br>
 
-**2. Get an overview of all research data!**
+**3. Get an overview of all research data!**
 
 -   Is there a direct link to the data in the paper?
 -   Do all files have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes) and can they be opened without any problems?
