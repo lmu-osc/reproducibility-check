@@ -24,14 +24,15 @@
 
 0. **Upload all files of your project into one place (e.g. an osf-project)** or at least make sure that all information how all files are accessible can be found at one place. The project and its link should be a persistent archive that will not be removed or change its address.
 
-   0.1. Make sure that files containing your (raw) data have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes). 
-   0.2. Make sure to include codebooks for at least all raw data files.  
-   0.3. Optimally, your project contains a R project file and such a structure of the folders and data files that the reproducer can simply download and save the complete project folder and then execute the scripts without further changes. Therefore, the scripts should use relative paths for loading data/ other scripts (e.g. ".../data/raw_data")
-   0.4. Create a "Master" script file (e.g. named 0_Make.R) that can be executed by the reproducer to automatically run all other scripts without having to run them individually.
-   0.5. You should use a "set.seed" (https://r-coder.com/set-seed-r/) in your scripts if you simulate something or use a random number generator to guarantee that the same "random numbers" will be used.
-   0.6. Make sure that the project includes a ReadMe-file (see 2. for what should be included in this file).
-   0.7. Ethical sharing: No uploaded data should contain any information that makes participants identifiable.
-   0.8. Add individual citation info for (raw) data and analysis script(s), so that people can use it to cite your work when reusing it. Optimally, you add a DOI for code and data that is also included in this citation info. This makes your code and data findable.
+   0.1. Make sure that files containing your (raw) data have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes).
+   0.2. Use UTF-8 (or UTF-16) encoding for all files to avoid problems in an international context (e.g., so characters like ü or é aren’t mangled)
+   0.3. Make sure to include codebooks for at least all raw data files.  
+   0.4. Optimally, your project contains a R project file and such a structure of the folders and data files that the reproducer can simply download and save the complete project folder and then execute the scripts without further changes. Therefore, the scripts should use relative paths for loading data/ other scripts (e.g. ".../data/raw_data")
+   0.5. Create a "Master" script file (e.g. named 0_Make.R) that can be executed by the reproducer to automatically run all other scripts without having to run them individually.
+   0.6. You should use a "set.seed" (https://r-coder.com/set-seed-r/) in your scripts if you simulate something or use a random number generator to guarantee that the same "random numbers" will be used.
+   0.7. Make sure that the project includes a ReadMe-file (see 2. for what should be included in this file).
+   0.8. Ethical sharing: No uploaded data should contain any information that makes participants identifiable.
+   0.9. Add individual citation info for (raw) data and analysis script(s), so that people can use it to cite your work when reusing it. Optimally, you add a DOI for code and data that is also included in this citation info. This makes your code and data findable.
 
    <br>
 
