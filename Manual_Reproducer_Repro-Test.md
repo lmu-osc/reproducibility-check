@@ -74,9 +74,9 @@ b\) If there are data sets in the project folder that were created by other pre-
 
 **2. Search for ReadMe file!**
 
-2.1.  Does it provide brief meta-information about the project (e.g. author, name of the paper, approximate topic)?
+  2.1.  Does it provide brief meta-information about the project (e.g. author, name of the paper, approximate topic)?
 
-2.2.  Does it include an overview of all files (data, scripts) including their source and availability (e.g. name of specific folders)?
+  2.2.  Does it include an overview of all files (data, scripts) including their source and availability (e.g. name of specific folders)?
 
 2.3.  Does it describe all the necessary steps to fully reproduce the analyses?
 
