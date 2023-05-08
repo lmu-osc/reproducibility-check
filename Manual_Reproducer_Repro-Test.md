@@ -74,21 +74,32 @@ b\) If there are data sets in the project folder that were created by other pre-
 
 **2. Search for ReadMe file!**
 
--   Does it describe all the necessary steps to fully reproduce the analyses?
+2.1.  Does it provide brief meta-information about the project (e.g. author, name of the paper, approximate topic)?
 
--   Does it provide brief meta-information about the project (e.g. author, name of the paper, approximate topic)?
+2.2.  Does it include an overview of all files (data, scripts) including their source and availability (e.g. name of specific folders)?
 
--   Does it sufficiently point out requirements/prerequisites regarding the software to be used (e.g. versions of the R packages; running time of the scripts; working memory of the computer)?  
+2.3.  Does it describe all the necessary steps to fully reproduce the analyses?
+
+2.4.  Does it sufficiently point out requirements/prerequisites regarding the software to be used (e.g. versions of the R packages; running time of the scripts; working memory of the computer)?  
 <br>
 
 **3. Get an overview of all research data!**
 
--   Is there a direct link to the data in the paper?
--   Do all files have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes) and can they be opened without any problems?
--   Are there general descriptions/meta-data for all raw/primary data that give general information about their content (e.g. survey periods, survey locations, type of data)? These should allow potential re-users to quickly decide whether the data is useful for their purposes. This meta-data should be easily accessible via the link to the data in the paper (e.g. located directly on the website where the data is stored). Ideally, an additional meta file in json format should be included, following the recommendations within this google-document <https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.v795m5ev9q> and the section there entitled "6.1. Dataset-level metadata (dataset_description.json)".
--   Are all variables in the data sets named?
--   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
--   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
+3.1.   Are there general descriptions/meta-data for all raw/primary data that give general information about their content (e.g. survey periods, survey locations, type of data)? These should allow potential re-users to quickly decide whether the data is useful for their purposes. This meta-data should be easily accessible via the link to the data in the paper (e.g. located directly on the website where the data is stored). Ideally, an additional meta file in json format should be included, following the recommendations within this google-document <https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.v795m5ev9q> and the section there entitled "6.1. Dataset-level metadata (dataset_description.json)".
+
+3.2.   Is there a direct link to the data in the paper?
+
+3.3.   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
+
+3.4.   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
+
+3.5.   Is there a data citation provided somewhere? It should be provided within the paper if external data are used or within ReadMe/paper/project folder to reuse data if they were produced within the same project.
+
+3.6.   Do all files have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes) and can they be opened without any problems?
+
+3.7.   Are all variables in the data sets named?
+
+3.8.   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
+
 -   <u>Additional aspects</u> that can be pointed out to the authors, even if they are not mandatory:
-    -   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
     -   Are the data stored in a data archive? This makes the data easier to be found and thus easier to reuse.
