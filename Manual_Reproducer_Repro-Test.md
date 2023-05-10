@@ -20,7 +20,8 @@
 
 **0.** **Download all files of the project!**
 
-  Requirement 0. Are they located in one place? Are they easy to find?  
+> Requirement 0. Are they located in one place? Are they easy to find?
+>   
 
 <br>
 
