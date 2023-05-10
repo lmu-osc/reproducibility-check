@@ -14,13 +14,13 @@
 
 <br>
 
-**Please carry out the following steps and note down (e.g. within the associated checklist (REPRO_CHECKLIST_PDF)), the respective results regarding the requirements/ questions mentioned within this manual (and summarized within the checklist).**
+**Please carry out the following steps and note down (e.g. within the associated checklist (REPRO_CHECKLIST_PDF)), the respective results regarding the requirements/ questions mentioned within this manual (and summarized within the checklist). **
 
 ------------------------------------------------------------------------
 
 **0.** **Download all files of the project!**
 
-  0. Are they located in one place? Are they easy to find?  
+  Requirement 0. Are they located in one place? Are they easy to find?  
 
 <br>
 
@@ -34,7 +34,7 @@
 
  - **Make sure to execute all scripts once and in the correct order**, especially if a "set.seed" is used at any point in the code. Otherwise, the results can differ considerably. The "set.seed" ensures that the same random values are selected in random processes (see also: <https://r-coder.com/set-seed-r/>).If a "set.seed" command is used, this should also be noted in the ReadMe file, e.g. in the description of all necessary steps for the complete reproduction of the analyses.
 
-  1.1. Do all analyses run without errors or are there any error messages/omissions? Make a note of the errors and the scripts which produced them! How long does it take to run through all the scripts? Does the time roughly correspond to the authors' specifications in the ReadMe document (if available)? Make a note of the time and report back!
+  Requirement 1.1. Do all analyses run without errors or are there any error messages/omissions? Make a note of the errors and the scripts which produced them! How long does it take to run through all the scripts? Does the time roughly correspond to the authors' specifications in the ReadMe document (if available)? Make a note of the time and report back!
 
 **➔ 1st Termination criterion (➔ direct feedback to authors):**
 
@@ -61,48 +61,49 @@
 *If any results cannot be reproduced, first very briefly check possible simple sources of error yourself (e.g. wrong sequence when executing the scripts; different software versions). If no solution is found: Please report back directly to the authors (➔send completed excel spreadsheet) and interrupt the repro test at this point until a solution is found!*  
 <br>
 
-  1.2. Are all tables from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any table looks different!
-  1.3. Are all figures from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any figure looks different!
-  1.4. All all in-text-numbers from the manuscript reproducible? Make a note of the numbers if any in-text-number is different!
-  1.5. Is it possible and easy to identify which tables, figures and in-text numbers are produced by which script/program (e.g. using the README-document and/or the comments within the scripts)?
+  Requirement 1.2. Are all tables from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any table looks different!
+  Requirement 1.3. Are all figures from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any figure looks different!
+  Requirement 1.4. All all in-text-numbers from the manuscript reproducible? Make a note of the numbers if any in-text-number is different!
+  Requirement 1.5. Is it possible and easy to identify which tables, figures and in-text numbers are produced by which script/program (e.g. using the README-document and/or the comments within the scripts)?
   
 **c\) Go through individual analysis scripts (e.g. R scripts)!**
 
-  1.6. Are the files named in a meaningful way, so that one can immediately derive from the title of each script what it is about and in which order the scripts should be executed?
+  Requirement 1.6. Are the files named in a meaningful way, so that one can immediately derive from the title of each script what it is about and in which order the scripts should be executed?
 
-  1.7. Does a "Master" script file exist that can be executed to automatically run all other scripts without having to run them individually yourself?
+  Requirement 1.7. Does a "Master" script file exist that can be executed to automatically run all other scripts without having to run them individually yourself?
 
-  1.8. Are the lines of code sufficiently commented so that one can basically understand which steps are carried out?  
+  Requirement 1.8. Are the lines of code sufficiently commented so that one can basically understand which steps are carried out?  
 <br>
 
 **2. Search for ReadMe file!**
 
-  2.1.  Does it provide brief meta-information about the project (e.g. author, name of the paper, approximate topic)?
+  Requirement 2.1.  Does it provide brief meta-information about the project (e.g. author, name of the paper, approximate topic)?
 
-  2.2.  Does it include an overview of all files (data, scripts) including their source and availability (e.g. name of specific folders)?
+  Requirement 2.2.  Does it include an overview of all files (data, scripts) including their source and availability (e.g. name of specific folders)?
 
-  2.3.  Does it describe all the necessary steps to fully reproduce the analyses?
+  Requirement 2.3.  Does it describe all the necessary steps to fully reproduce the analyses?
 
-  2.4.  Does it sufficiently point out requirements/prerequisites regarding the software to be used (e.g. versions of the R packages; running time of the scripts; working memory of the computer)?  
+  Requirement 2.4.  Does it sufficiently point out requirements/prerequisites regarding the software to be used (e.g. versions of the R packages; running time of the scripts; working memory of the computer)?  
 <br>
 
 **3. Get an overview of all research data!**
 
-  3.1.   Are there general descriptions/meta-data for all raw/primary data that give general information about their content (e.g. survey periods, survey locations, type of data)? These should allow potential re-users to quickly decide whether the data is useful for their purposes. This meta-data should be easily accessible via the link to the data in the paper (e.g. located directly on the website where the data is stored). Ideally, an additional meta file in json format should be included, following the recommendations within this google-document <https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.v795m5ev9q> and the section there entitled "6.1. Dataset-level metadata (dataset_description.json)".
+  Requirement 3.1.   Are there general descriptions/meta-data for all raw/primary data that give general information about their content (e.g. survey periods, survey locations, type of data)? These should allow potential re-users to quickly decide whether the data is useful for their purposes. This meta-data should be easily accessible via the link to the data in the paper (e.g. located directly on the website where the data is stored). Ideally, an additional meta file in json format should be included, following the recommendations within this google-document <https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.v795m5ev9q> and the section there entitled "6.1. Dataset-level metadata (dataset_description.json)".
 
-  3.2.   Is there a direct link to the data in the paper?
+  Requirement 3.2.   Is there a direct link to the data in the paper?
 
-  3.3.   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
+  Requirement 3.3.   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
 
-  3.4.   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
+  Requirement 3.4.   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
 
-  3.5.   Is there a data citation provided somewhere? It should be provided within the paper if external data are used or within ReadMe/paper/project folder to reuse data if they were produced within the same project.
+  Requirement 3.5.   Is there a data citation provided somewhere? It should be provided within the paper if external data are used or within ReadMe/paper/project folder to reuse data if they were produced within the same project.
 
-  3.6.   Do all files have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes) and can they be opened without any problems?
+  Requirement 3.6.   Do all files have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes) and can they be opened without any problems?
 
-  3.7.   Are all variables in the data sets named?
+  Requirement 3.7.   Are all variables in the data sets named?
 
-  3.8.   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
+  Requirement 3.8.   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
 
--   <u>Additional aspects</u> that can be pointed out to the authors, even if they are not mandatory:
+**0.** **Download all files of the project!**
+**<u>Think of any additional aspects</u> that could be pointed out to the authors, even if they are not mandatory.*** Examples are:
     -   Are the data stored in a data archive? This makes the data easier to be found and thus easier to reuse.
