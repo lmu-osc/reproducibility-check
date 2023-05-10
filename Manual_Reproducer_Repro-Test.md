@@ -90,7 +90,7 @@
 
   Requirement 3.1.   Are there general descriptions/meta-data for all raw/primary data that give general information about their content (e.g. survey periods, survey locations, type of data)? These should allow potential re-users to quickly decide whether the data is useful for their purposes. This meta-data should be easily accessible via the link to the data in the paper (e.g. located directly on the website where the data is stored). Ideally, an additional meta file in json format should be included, following the recommendations within this google-document <https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.v795m5ev9q> and the section there entitled "6.1. Dataset-level metadata (dataset_description.json)".
 
-  Requirement 3.2.   Is there a direct link to the data in the paper?
+  <u>Requirement 3.2.</u>   Is there a direct link to the data in the paper?
 
   Requirement 3.3.   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
 
@@ -105,5 +105,5 @@
   Requirement 3.8.   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
 
 **0.** **Download all files of the project!**
-**<u>Think of any additional aspects</u> that could be pointed out to the authors, even if they are not mandatory.*** Examples are:
+**Think of any additional aspects that could be pointed out to the authors, even if they are not mandatory.** Examples are:
     -   Are the data stored in a data archive? This makes the data easier to be found and thus easier to reuse.
