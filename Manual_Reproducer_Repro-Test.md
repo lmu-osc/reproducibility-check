@@ -20,13 +20,13 @@
 
 **0.** **Download all files of the project!**
 
-- Are they located in one place? Are they easy to find?  
+  0. Are they located in one place? Are they easy to find?  
 
 <br>
 
-**1.** **Analysis scripts**
+**1.** **Code check**
 
-**1.1. Execute all analysis scripts in the correct order (e.g. following the instructions from the ReadMe document or the numbering of the documents)**
+**Execute all analysis scripts in the correct order (e.g. following the instructions from the ReadMe document or the numbering of the documents)**
 
 a\) **Make sure that the respective programme version (e.g. R version) is used that the authors used for their analyses.** The programme version should be specified in the ReadMe document or a separately attached file (e.g. labelled "session_info"). Using the R-installation manager (<https://github.com/r-lib/rig>) you ca easily install, remove and switch between different R versions within the same R session on MacOs, Windwos and Linux. Other alternatives are Rswitch (<https://rud.is/rswitch/>) for MacOs or suggestions that can be found at <https://support.rstudio.com/hc/en-us/articles/200486138-Changing-R-versions-for-RStudio-desktop>.
 
@@ -34,16 +34,14 @@ b\) **Make sure that the respective software package versions (e.g. R package ve
 
 c\) **Make sure to execute all scripts once and in the correct order**, especially if a "set.seed" is used at any point in the code. Otherwise, the results can differ considerably. The "set.seed" ensures that the same random values are selected in random processes (see also: <https://r-coder.com/set-seed-r/>).If a "set.seed" command is used, this should also be noted in the ReadMe file, e.g. in the description of all necessary steps for the complete reproduction of the analyses.
 
--   Do all analyses run without errors or are there any error messages/omissions?
-
--   How long does it take to run through all the scripts? Does the time roughly correspond to the authors' specifications in the ReadMe document (if available)? Make a note of the time and report back!
+  1.1. Do all analyses run without errors or are there any error messages/omissions? Make a note of the errors and the scripts which produced them! How long does it take to run through all the scripts? Does the time roughly correspond to the authors' specifications in the ReadMe document (if available)? Make a note of the time and report back!
 
 **➔ 1st Termination criterion (➔ direct feedback to authors):**
 
 *If the scripts cannot be run through, first look for a solution to the problem yourself (e.g. with the help of the ReadMe file or a quick google search). Note down successful solutions in order to be able to report them back to the authors later as a tip/hint. If no solution is found: Please report the problem directly to the authors and interrupt the reproducibility test at this point until a solution is found!*  
 <br>
 
-**1.2. Do the actual check by comparing the reproduced results with the authors' results! List the comparisons in an Excel spreadsheet according to the following scheme (see Table below) and describe any differences:**
+**Do the actual check by comparing the reproduced results with the authors' results! Using the scripts or the README-file it should be easy to identify which tables, figures and in-text numbers are produced by which script. List the comparisons in an Excel spreadsheet according to the following scheme (see Table below) and describe any differences:**
 
 a\) In the results section of the paper, mark all passages (including tables/figures/results within the body text) that contain results (especially figures, graphs) of the analyses carried out. Compare these individually with your own results from the executed scripts. The numbers within the body text do not have to be added individually to the spreadsheet; it is sufficient if all sections within the Results are listed with their headings. The authors should make clear where the respective results can be found (e.g. within ReadMe document and/or the scripts by adding appropriate comments).
 
@@ -63,13 +61,18 @@ b\) If there are data sets in the project folder that were created by other pre-
 *If any results cannot be reproduced, first very briefly check possible simple sources of error yourself (e.g. wrong sequence when executing the scripts; different software versions). If no solution is found: Please report back directly to the authors (➔send completed excel spreadsheet) and interrupt the repro test at this point until a solution is found!*  
 <br>
 
-**1.3. Go through individual analysis scripts (e.g. R scripts)!**
+  1.2. Are all tables from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any table looks different!
+  1.3. Are all figures from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any figure looks different!
+  1.4. All all in-text-numbers from the manuscript reproducible? Make a note of the numbers if any in-text-number is different!
+  1.5. Is it possible and easy to identify which tables, figures and in-text numbers are produced by which script/program (e.g. using the README-document and/or the comments within the scripts)?
+  
+**Go through individual analysis scripts (e.g. R scripts)!**
 
--   Are the files named in a meaningful way, so that one can immediately derive from the title of each script what it is about and in which order the scripts should be executed?
+  1.6. Are the files named in a meaningful way, so that one can immediately derive from the title of each script what it is about and in which order the scripts should be executed?
 
--   Does a "Master" script file exist that can be executed to automatically run all other scripts without having to run them individually yourself?
+  1.7. Does a "Master" script file exist that can be executed to automatically run all other scripts without having to run them individually yourself?
 
--   Are the lines of code sufficiently commented so that one can basically understand which steps are carried out?  
+  1.8. Are the lines of code sufficiently commented so that one can basically understand which steps are carried out?  
 <br>
 
 **2. Search for ReadMe file!**
@@ -78,28 +81,28 @@ b\) If there are data sets in the project folder that were created by other pre-
 
   2.2.  Does it include an overview of all files (data, scripts) including their source and availability (e.g. name of specific folders)?
 
-2.3.  Does it describe all the necessary steps to fully reproduce the analyses?
+  2.3.  Does it describe all the necessary steps to fully reproduce the analyses?
 
-2.4.  Does it sufficiently point out requirements/prerequisites regarding the software to be used (e.g. versions of the R packages; running time of the scripts; working memory of the computer)?  
+  2.4.  Does it sufficiently point out requirements/prerequisites regarding the software to be used (e.g. versions of the R packages; running time of the scripts; working memory of the computer)?  
 <br>
 
 **3. Get an overview of all research data!**
 
-3.1.   Are there general descriptions/meta-data for all raw/primary data that give general information about their content (e.g. survey periods, survey locations, type of data)? These should allow potential re-users to quickly decide whether the data is useful for their purposes. This meta-data should be easily accessible via the link to the data in the paper (e.g. located directly on the website where the data is stored). Ideally, an additional meta file in json format should be included, following the recommendations within this google-document <https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.v795m5ev9q> and the section there entitled "6.1. Dataset-level metadata (dataset_description.json)".
+  3.1.   Are there general descriptions/meta-data for all raw/primary data that give general information about their content (e.g. survey periods, survey locations, type of data)? These should allow potential re-users to quickly decide whether the data is useful for their purposes. This meta-data should be easily accessible via the link to the data in the paper (e.g. located directly on the website where the data is stored). Ideally, an additional meta file in json format should be included, following the recommendations within this google-document <https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.v795m5ev9q> and the section there entitled "6.1. Dataset-level metadata (dataset_description.json)".
 
-3.2.   Is there a direct link to the data in the paper?
+  3.2.   Is there a direct link to the data in the paper?
 
-3.3.   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
+  3.3.   Do all raw/primary data have codebooks that describe all variables contained in the files in an understandable way? This does not apply to the data that is only created with the specified scripts (e.g. data in folders with names like "processed_data"), but only to the data that is actually necessary to run the scripts in the first place.
 
-3.4.   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
+  3.4.   Are there summary statistics (e.g. mean values/standard deviations) for all raw/primary data?
 
-3.5.   Is there a data citation provided somewhere? It should be provided within the paper if external data are used or within ReadMe/paper/project folder to reuse data if they were produced within the same project.
+  3.5.   Is there a data citation provided somewhere? It should be provided within the paper if external data are used or within ReadMe/paper/project folder to reuse data if they were produced within the same project.
 
-3.6.   Do all files have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes) and can they be opened without any problems?
+  3.6.   Do all files have a CSV-, TSV- or TAB-format (necessary to ensure compatibility with various programmes) and can they be opened without any problems?
 
-3.7.   Are all variables in the data sets named?
+  3.7.   Are all variables in the data sets named?
 
-3.8.   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
+  3.8.   Are all data sufficiently anonymised (especially anonymisation/removal of personal details such as names/birth dates)? This point does not need to be checked specifically by independently searching for non-anonymised data. However, it is important to note and pass on any anomalies encountered when conducting the reproducibility test.
 
 -   <u>Additional aspects</u> that can be pointed out to the authors, even if they are not mandatory:
     -   Are the data stored in a data archive? This makes the data easier to be found and thus easier to reuse.
