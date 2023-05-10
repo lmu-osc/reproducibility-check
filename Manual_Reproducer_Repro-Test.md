@@ -124,3 +124,4 @@
 **Think of any additional aspects that could be pointed out to the authors, even if they are not mandatory.** Examples are:
 
 - Are the data stored in a data archive? This makes the data easier to be found and thus easier to reuse.
+- ...
