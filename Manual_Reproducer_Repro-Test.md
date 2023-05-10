@@ -124,4 +124,7 @@
 **Think of any additional aspects that could be pointed out to the authors, even if they are not mandatory.** Examples are:
 
 - Are the data stored in a data archive? This makes the data easier to be found and thus easier to reuse.
+- Are there any other parts of the workflow that authors could improve (e.g. shorten code)?
+- Are the statistical methods used suitable for answering the research question?
+- Would it be reasonable to provide a “toy” example, or smaller dataset that can be quickly analysed to demonstrate that the workflow runs correctly?
 - ...
