@@ -34,7 +34,8 @@
 
  - **Make sure to execute all scripts once and in the correct order**, especially if a "set.seed" is used at any point in the code. Otherwise, the results can differ considerably. The "set.seed" ensures that the same random values are selected in random processes (see also: <https://r-coder.com/set-seed-r/>).If a "set.seed" command is used, this should also be noted in the ReadMe file, e.g. in the description of all necessary steps for the complete reproduction of the analyses.
 
-  Requirement 1.1. Do all analyses run without errors or are there any error messages/omissions? Make a note of the errors and the scripts which produced them! How long does it take to run through all the scripts? Does the time roughly correspond to the authors' specifications in the ReadMe document (if available)? Make a note of the time and report back!
+> Requirement 1.1. Do all analyses run without errors or are there any error messages/omissions? Make a note of the errors and the scripts which produced them! How long does it take to run through all the scripts? Does the time roughly correspond to the authors' specifications in the ReadMe document (if available)? Make a note of the time and report back!
+> 
 
 **➔ 1st Termination criterion (➔ direct feedback to authors):**
 
@@ -61,10 +62,17 @@
 *If any results cannot be reproduced, first very briefly check possible simple sources of error yourself (e.g. wrong sequence when executing the scripts; different software versions). If no solution is found: Please report back directly to the authors (➔send completed excel spreadsheet) and interrupt the repro test at this point until a solution is found!*  
 <br>
 
-  Requirement 1.2. Are all tables from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any table looks different!
-  Requirement 1.3. Are all figures from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any figure looks different!
-  Requirement 1.4. All all in-text-numbers from the manuscript reproducible? Make a note of the numbers if any in-text-number is different!
-  Requirement 1.5. Is it possible and easy to identify which tables, figures and in-text numbers are produced by which script/program (e.g. using the README-document and/or the comments within the scripts)?
+> Requirement 1.2. Are all tables from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any table looks different!
+>
+
+> Requirement 1.3. Are all figures from the manuscript reproducible? Make a note and SAVE file (screen-shot/jpg) if any figure looks different!
+> 
+
+> Requirement 1.4. All all in-text-numbers from the manuscript reproducible? Make a note of the numbers if any in-text-number is different!
+> 
+  
+> Requirement 1.5. Is it possible and easy to identify which tables, figures and in-text numbers are produced by which script/program (e.g. using the README-document and/or the comments within the scripts)?
+> 
 
 **c\) Go through individual analysis scripts (e.g. R scripts)!**
 
