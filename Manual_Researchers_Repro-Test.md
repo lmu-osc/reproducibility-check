@@ -51,7 +51,7 @@
   2.4. Information on where to find all (raw) data files necessary to reproduce your analyses. Here, you can also shortly add a short note if any data files included in your project are no raw data but instead should be reproduced by the reproducer himself/herself (e.g. by running the pre-processing scripts using raw data files)  
   2.5. Information on how to save the data files in order to be able to successfully execute the scripts. Optimally, your project contains a R project file and such a structure of the folders and data files that the reproducer can simply download and save the complete project folder and then execute the scripts without further changes.  
   2.6. Information on the order in which the R scripts should be executed to reproduce your results. If you use a "set.seed" ((see also: https://r-coder.com/set-seed-r/), it would be a good idea to add an additional comment about it within the ReadMe-file, so that the reproducer does not run into any error e.g. repeatedly executing parts of this script. Here, you can also mention your "Master" script file (e.g. named 0_Make.R) if you included one.
-  2.7. Indication of which parts of the code produce which figures/tables/numbers. Instead, you can also use RMarkdown so that the whole paper will be reproduced.
+  2.7. Indication of which parts of the code produce which figures/tables/numbers. Alternatively, you can also use RMarkdown so that the whole paper will be reproduced.
 
   <br>
 
