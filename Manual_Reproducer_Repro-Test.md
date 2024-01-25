@@ -14,7 +14,7 @@
 
 <br>
 
-**Please carry out the following steps and note down the respective results regarding the requirements/ questions mentioned within this manual. Therefore, you can use the associated checklist (REPRO_CHECKLIST_PDF)) that follows the numbering from this manual regarding the requirements.**
+**Please carry out the following steps and note down the respective results regarding the requirements/ questions mentioned within this manual. For this, you can use the associated checklist (REPRO_CHECKLIST_PDF)) that follows the numbering from this manual regarding the requirements.**
 
 ------------------------------------------------------------------------
 
