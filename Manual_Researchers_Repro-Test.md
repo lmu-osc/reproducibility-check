@@ -2,7 +2,7 @@
 
 ------
 
-**If you want to guarantee the reusability of your data and code, respective, a successful reproducibility attempt by the reproducer, you should keep in mind the following when finalizing your data, script and other project files.**  
+**If you want to guarantee the reusability of your data and code, and a successful reproducibility attempt by the reproducer, you should keep in mind the following when finalizing your data, script and other project files.**  
 
 <br>
 
@@ -14,11 +14,11 @@
 
   - **<u>B. Reusability:</u> Are all files (e.g. raw data, scripts) structured in such a way that they can be easily reused by external persons for their own research?**
 
-    **➔ You should simply think about everything that could make the reuse of your material/data/scripts difficult. Three central aspects to improve the reusability are a helpful code description (e.g. easily understandable comments within you R-scripts), reasonable and consistent variable names within both data files and codebooks and some kind of meta-data that provide a quick overview what your data and project are about.**
+    **➔ You should think about everything that could make the reuse of your material/data/scripts difficult. Three central aspects to improve the reusability are a helpful code description (e.g.  understandable comments within your scripts), reasonable and consistent variable names within both data files and codebooks and some kind of meta-data that provide a quick overview what your data and project are about.**
 
 <br>
 
-**However, it most important as a researcher that you provide all necessary documents and information so that the reproducer can at least complete a full Reproducibility Test. The following manual aims to provide you with some central steps to a) make sure that the reproducibility test can be conducted completely and b) guarantee some minimal standards which will help to make the reproducibility attempt as successful as possible.**
+**It is important to provide all necessary documents and information so that the reproducer can at least complete a full Reproducibility Test. The following manual aims to provide you with some central steps to a) make sure that the reproducibility test can be conducted completely and b) guarantee some minimal standards which will help to make the reproducibility attempt as successful as possible.**
 
 ------------------------------------------------------------------------
 
