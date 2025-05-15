@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Reproducibility Check"
+  repo-url: https://github.com/lmu-osc/ReproducibilityCheck
+  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
