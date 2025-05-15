@@ -1,0 +1,29 @@
+---
+title: "Peer Reproduction"
+---
+
+Peer reproductions provide the possibility for research groups
+to check the reproducibility of their works by leveraging
+the existing knowledge withing a group.
+They are convenient if sharing data with third parties
+is difficult given privacy concerns and contractual obligations.
+
+We provide a web tool that guides researchers through
+the process of conducting a reproduction.
+Using the tool guarantees that a common protocol is followed
+and important information is always collected.
+It supports the user by generating a report in the end
+facilitating the communication about the reproduction.
+
+## Using the web tool
+
+One can start a new reproduction by clicking on the following button:
+
+[Open web tool](https://doc.dno-ev.de/run/repcheck/reproduce/){.btn .btn-lg .btn-success target="_blank"}
+
+The web tool will open in a new tab and guide you through the process.
+
+As of May 2025, the web tool is in _beta_ status.
+This means that it can already be used for its purpose,
+but likely contains bugs and unpolished interfaces.
+

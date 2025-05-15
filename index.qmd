@@ -19,31 +19,12 @@ By reproducibility, we mean...
 Currently, we provide guidance via a web tool
 for research groups conducting peer reproductions.
 
-[Peer Reproductions](peer-reproduction.qmd){.btn .btn-lg .btn-success}
+[Peer Reproduction](peer-reproduction.qmd){.btn .btn-lg .btn-success}
 
+In the future, we also want to provide reproducibility checks as a service.
 
+## Who is behind this?
 
-## Scope
+This project is coordinated by the [LMU Open Science Center](https://www.osc.uni-muenchen.de/).
+The initial development was done by Florian Kohrt.
 
-The reproducibility check at the LMU OSC checks
-whether the results of a particular computation
-can indeed be obtained from given source code.
-
-The following checks are, therefore, out of scope:
-
-- Check that the methods are appropriate
-- Check that conclusions hold
-- Check that the code actually does what it should
-- Check that the code corresponds to the method description
-- Check that pre-registration reduces the researcher degrees of freedom and is followed
-
-## Eligibility
-
-All researchers who are affiliated with LMU Munich may submit their manuscript and source code.
-
-
-## More information
-
-[Submit my work](submit.qmd){.btn .btn-lg .btn-success}
-
-[Check a submission](check.qmd){.btn .btn-lg .btn-success}

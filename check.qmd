@@ -1,7 +1,0 @@
----
-title: "Check"
----
-
-These are the instructions for performing a reproducibility check.
-
-[Open submission platform](https://doc.dno-ev.de/start/reproduction/play/){.btn .btn-lg .btn-success}
