@@ -1,0 +1,49 @@
+---
+title: "Reproducibility Check"
+---
+
+Welcome to the Reproducibility Check project at the LMU Open Science Center! 
+Here, we strive to increase reproducibility of scientific works
+by providing guidance and services to researchers.
+
+## What is reproducibility?
+
+By reproducibility, we mean...
+
+> "obtaining consistent results using the same input data; computational steps, methods, and code; and conditions of analysis"
+> 
+> --- @NASEM2019, p. 46
+
+## What do we offer?
+
+Currently, we provide guidance via a web tool
+for research groups conducting peer reproductions.
+
+[Peer Reproductions](peer-reproduction.qmd){.btn .btn-lg .btn-success}
+
+
+
+## Scope
+
+The reproducibility check at the LMU OSC checks
+whether the results of a particular computation
+can indeed be obtained from given source code.
+
+The following checks are, therefore, out of scope:
+
+- Check that the methods are appropriate
+- Check that conclusions hold
+- Check that the code actually does what it should
+- Check that the code corresponds to the method description
+- Check that pre-registration reduces the researcher degrees of freedom and is followed
+
+## Eligibility
+
+All researchers who are affiliated with LMU Munich may submit their manuscript and source code.
+
+
+## More information
+
+[Submit my work](submit.qmd){.btn .btn-lg .btn-success}
+
+[Check a submission](check.qmd){.btn .btn-lg .btn-success}
