@@ -18,7 +18,7 @@
     "href": "peer-reproduction.html#using-the-web-tool",
     "title": "Peer Reproduction",
     "section": "Using the web tool",
-    "text": "Using the web tool\nOne can start a new reproduction by clicking on the following button:\nOpen web tool\nThe web tool will open in a new tab and guide you through the process.\nAs of May 2025, the web tool is in beta status. This means that it can already be used for its purpose, but likely contains bugs and unpolished interfaces."
+    "text": "Using the web tool\nOne can start a new reproduction by clicking on the following button:\nOpen web tool\nThe web tool will open in a new tab and guide you through the process. It roughly follows the structure suggested by Kohrt et al. (2024).\nAs of May 2025, the web tool is in beta status. This means that it can already be used for its purpose, but likely contains bugs and unpolished interfaces.\nPlease feel free to report issues at GitHub."
   },
   {
     "objectID": "Manual_Researchers_Repro-Test.html",

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.43">
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -144,13 +164,19 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="using-the-web-tool">Using the web tool</h2>
 <p>One can start a new reproduction by clicking on the following button:</p>
 <p><a href="https://doc.dno-ev.de/run/repcheck/reproduce/" class="btn btn-lg btn-success" target="_blank">Open web tool</a></p>
-<p>The web tool will open in a new tab and guide you through the process.</p>
+<p>The web tool will open in a new tab and guide you through the process. It roughly follows the structure suggested by <span class="citation" data-cites="Kohrt2024">Kohrt et al. (<a href="#ref-Kohrt2024" role="doc-biblioref">2024</a>)</span>.</p>
 <p>As of May 2025, the web tool is in <em>beta</em> status. This means that it can already be used for its purpose, but likely contains bugs and unpolished interfaces.</p>
+<p>Please feel free to report issues at <a href="https://github.com/lmu-osc/reproducibility-check/issues">GitHub</a>.</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Kohrt2024" class="csl-entry" role="listitem">
+Kohrt, Florian, Filip Melinscak, Richard McElreath, and Felix D. Schönbrodt. 2024. <span>“A Conceptual Framework for Computational Reproductions: <span>Formal</span> Definitions and Epistemic Functions.”</span> Zenodo. <a href="https://doi.org/10.5281/ZENODO.14282874">https://doi.org/10.5281/ZENODO.14282874</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -241,7 +267,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/lmu-osc\.github\.io\/reproducibility-check\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
