@@ -1,0 +1,30 @@
+---
+title: "Reproducibility Check"
+---
+
+Welcome to the Reproducibility Check project at the LMU Open Science Center! 
+Here, we strive to increase reproducibility of scientific works
+by providing guidance and services to researchers.
+
+## What is reproducibility?
+
+By reproducibility, we mean...
+
+> "obtaining consistent results using the same input data; computational steps, methods, and code; and conditions of analysis"
+> 
+> --- @NASEM2019, p. 46
+
+## What do we offer?
+
+Currently, we provide guidance via a web tool
+for research groups conducting peer reproductions.
+
+[Peer Reproduction](peer-reproduction.qmd){.btn .btn-lg .btn-success}
+
+In the future, we also want to provide reproducibility checks as a service.
+
+## Who is behind this?
+
+This project is coordinated by the [LMU Open Science Center](https://www.osc.uni-muenchen.de/).
+The initial development was done by Florian Kohrt.
+
